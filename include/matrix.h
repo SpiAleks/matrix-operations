@@ -19,6 +19,7 @@ public:
 
 	Matrix operator+(const Matrix& other) const;
 	Matrix operator*(const Matrix& other) const;
+	double determinant() const;
 
 	int getRows() const { return rows; }
 	int getCols() const { return cols; }
